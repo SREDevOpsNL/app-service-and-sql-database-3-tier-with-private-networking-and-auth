@@ -22,7 +22,6 @@ variables:
   - name: agentPoolName
     value: dotnet-vbd #CHANGE ME or delete me and get from dotnet-vbd library
   - group: dotnet-vbd
-    allPipelines: true
   # You must create a Library variable group called dotnet-vbd and put the following variables in it for this pipeline to succeed.
   # You must declare a variable for uniqueId. This is used to ensure there are no collisions for global services, whilst still being deterministic
   # You must declare variables for sqlAdminObjectId, which needs to the Service Principal Object Id used for the Service Connection here. 
